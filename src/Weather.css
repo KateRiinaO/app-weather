@@ -1,6 +1,7 @@
 .Weather {
   margin-top: 20px;
   border: 1px solid #3b3566;
+  font-family: "Ms Madi", cursive;
 }
 
 .Weather form {

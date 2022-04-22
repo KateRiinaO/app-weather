@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Weather from "./Weather";
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <h1>Weather application</h1>
-          <button className="btn btn-primary">hello</button>
-        </header>
+        <Weather />
+        <h1>Weather application</h1>
+
         <footer>
           <p>
             This project was coded by Katerīna Orrava and is open-sourced on{" "}

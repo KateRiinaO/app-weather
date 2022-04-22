@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <h1>Weather application</h1>
-        <button className="btn btn-primary">hi</button>
+        <button className="btn btn-primary">hello</button>
       </header>
       <footer>
         <p>

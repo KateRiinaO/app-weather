@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
-export default function Weather() {
+export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
 
   function handleResponse(response) {
@@ -46,7 +46,7 @@ export default function Weather() {
         <ul>
           <li>{weatherData.date}</li>
           <li className="text-capitalize">{weatherData.description}</li>
-          <li>Feels like: {weatherData.feels}</li>
+          <li>Feels like: {Math.round(weatherData.feels)}</li>
         </ul>
         <div className="row mt-3">
           <div className="col-6">
@@ -70,7 +70,7 @@ export default function Weather() {
   } else {
     const apiKey = "faf90a5bc03e42145a435bf92d2bbff7";
     let city = "Riga";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
 

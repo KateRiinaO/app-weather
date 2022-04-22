@@ -11,11 +11,19 @@ export default function App() {
       <footer>
         <p>
           This project was coded by Katerīna Orrava and is open-sourced on{" "}
-          <a href="/" target="_blank">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/KateRiinaO/app-weather"
+          >
             GitHub
           </a>{" "}
           and hosted on{" "}
-          <a href="/" target="_blank">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://dapper-lokum-52cb3b.netlify.app/"
+          >
             Netlify
           </a>
         </p>

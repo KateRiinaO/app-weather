@@ -43,3 +43,9 @@
   font-weight: normal;
   list-style: none;
 }
+canvas {
+  margin-left: 30px;
+}
+.units {
+  font-family: "Ms Madi", cursive;
+}

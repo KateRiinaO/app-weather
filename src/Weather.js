@@ -69,7 +69,7 @@ export default function Weather(props) {
     );
   } else {
     const apiKey = "faf90a5bc03e42145a435bf92d2bbff7";
-    let city = "Riga";
+
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }

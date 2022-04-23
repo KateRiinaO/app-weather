@@ -1,14 +1,22 @@
 .Weather {
   margin-top: 20px;
   border: 1px solid #3b3566;
+  border-radius: 10px;
+  box-shadow: #70757a;
   font-family: "Times New Roman", Times, serif;
   padding-bottom: 10px;
+  box-shadow: 5px 5px 2px 1px #68bdeb;
 }
 
 .Weather form {
   margin: 10px;
 }
-
+.btn {
+  background-color: black;
+  color: white;
+  border: black;
+  font-weight: bold;
+}
 .Weather h1 {
   color: #202124;
   font-weight: bold;

@@ -1,7 +1,7 @@
 .Weather {
   margin-top: 20px;
   border: 1px solid #3b3566;
-  font-family: "Ms Madi", cursive;
+  font-family: "Times New Roman", Times, serif;
   padding-bottom: 10px;
 }
 
@@ -44,8 +44,9 @@
   list-style: none;
 }
 canvas {
-  margin-left: 30px;
+  margin-left: 0px;
 }
 .units {
   font-family: "Ms Madi", cursive;
+  text-decoration: none;
 }

@@ -11,14 +11,14 @@ export default function WeatherInfo(props) {
           <FormatedDate date={props.data.date} />
         </li>
         <li className="text-capitalize">{props.data.description}</li>
-        <li>Feels like: {Math.round(props.data.feels)}</li>
+        <li>Feels like: {Math.round(props.data.feels)}°C</li>
       </ul>
 
       <div className="row mt-3">
         <div className="col-6">
           <div className="clearfix">
             <div className="float-left">
-              <WeatherIcon code={props.data.icon} />{" "}
+              <WeatherIcon code={props.data.icon} size={64} />{" "}
               <WeatherTemperature celsius={props.data.temperature} />
             </div>
           </div>

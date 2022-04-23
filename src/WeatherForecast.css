@@ -5,3 +5,6 @@
 .WeatherForecast-tempMin {
   opacity: 0.5;
 }
+.mainToday {
+  margin-left: 20px;
+}
